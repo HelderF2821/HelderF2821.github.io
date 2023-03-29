@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>PortFolio</title>
+</head>
+
+<body>
+    <header class="header">
+         <a href="#" class="logo">PortFolio</a>
+
+         <i class='bx bx-menu' id="menu-icon"></i>
+
+         <nav class="navbar">
+            <a href="#home" class="active">Home</a>            
+            <a href="#about">About</a>
+            <a href="#competences">Compétences</a>
+            <a href="#projects">Projets</a>
+            <a href="#contact">Contact </a>
+         </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's me</h3>
+            <h1>Helder Ferreira</h1>
+            <h3>And i'm a <span>Student Software Developer</span></h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam dolorem architecto quasi 
+            nostrum voluptates tenetur velit! Non.</p>
+            <div class="social-media">
+                <a href="https://github.com/HelderF2821" target="_blank"><i class='bx bxl-github' ></i></a>
+                <a href="https://www.linkedin.com/in/helder-ferreira-9531a3221/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a href="Helder_Ferreira_CV.pdf" download="Helder_Ferreira_CV.pdf" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="images/Home.png" alt="">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/about.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Developer Junior</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit commodi vel sequi perferendis 
+            autem! Magni placeat dicta, natus quo blanditiis earum odit sint quos, deleniti nulla suscipit omnis 
+            quidem consequuntur incidunt ea asperiores nemo facilis sunt ducimus corporis quasi fugit! Aliquam eos 
+            necessitatibus mollitia corporis quas.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <section class="competences" id="competences">
+        <h2 class="heading">Mes <span>Compétences</span></h2>
+        <div class="competences-container">
+            <div class="competences-box">
+                <i class='bx bxl-html5' ></i>                
+                <h3>HTML</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum in ratione earum eum expedita 
+                repudiandae vel repellendus fuga at laborum!</p>
+            </div>
+            <div class="competences-box">
+                <i class='bx bxl-css3' ></i>                
+                <h3>CSS</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum in ratione earum eum expedita 
+                repudiandae vel repellendus fuga at laborum!</p>
+            </div>
+            <div class="competences-box">
+                <i class='bx bxl-javascript' ></i>                
+                <h3>JavaScript</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum in ratione earum eum expedita 
+                repudiandae vel repellendus fuga at laborum!</p>
+            </div>
+            <div class="competences-box">
+                <i class='bx bxl-php' ></i>
+                <h3>PHP</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum in ratione earum eum expedita 
+                repudiandae vel repellendus fuga at laborum!</p>
+            </div>
+            <div class="competences-box">
+                <i class='bx bxl-react'></i>                
+                <h3>REACT</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum in ratione earum eum expedita 
+                repudiandae vel repellendus fuga at laborum!</p>
+            </div>
+            <div class="competences-box">
+                <i class='bx bxl-tailwind-css' ></i>
+                <h3>TAILWIND</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum in ratione earum eum expedita 
+                repudiandae vel repellendus fuga at laborum!</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="projects-container">
+            <div class="projects-box">
+                <img src="images/Logo_Pico8.png" alt="">
+                <div class="projects-layer">
+                    <h4>Pico 8</h4>
+                    <p>1er Projet de la formation. Jeu en Pixel (16x16) coder en Lua via Pico-8</p>
+                    <a href="https://github.com/HelderF2821/projet-collectif---pico-8-team-pirates" target="_blank"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+            <div class="projects-box">
+                <img src="images/Logo_Dataviz.png" alt="">
+                <div class="projects-layer">
+                    <h4>Dataviz</h4>
+                    <p>Projet 1ère utilisation des Apis. Utilisation d'Api météo ainsi que Api générant des blagues. Fond de la page et animation sur celle-ci en fonction de la météo.</p>
+                    <a href="https://github.com/HelderF2821/Projet_Dataviz" target="_blank"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+            <div class="projects-box">
+                <img src="images/Logo_Extension_Navigateur.png" alt="">
+                <div class="projects-layer">
+                    <h4>Extension Navigateur</h4>
+                    <p>Création d'une extension Chrome, qui change toutes toutes les divs img de la page et qui en cas d'inactivité va afficher des informations sur 4 animaux.</p>
+                    <a href="https://github.com/HelderF2821/projet_collectif_extension_navigateur-archedenoe" target="_blank"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+            <div class="projects-box">
+                <img src="images/Futur_Projet.png" alt="">
+                <div class="projects-layer">
+                    <h4>Réseau Social PHP</h4>
+                    <p>Projet de création d'un résaux social, utilisation du Php et d'une base de données MySQL.</p>
+                    <a href="https://github.com/HelderF2821/Resoc_Maeva_Helder_Hanin" target="_blank"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+            <div class="projects-box">
+                <img src="images/Logo_Portfolio.png" alt="">
+                <div class="projects-layer">
+                    <h4>PortFolio</h4>
+                    <p>Projet Personnel de création d'un PortFolio en Ligne totalment responsive.</p>
+                    <a href="#home"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+            <div class="projects-box">
+                <img src="images/Logo_Plateforme_de_meubles.png" alt="">
+                <div class="projects-layer">
+                    <h4>Plateforme de Meubles</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, a.</p>
+                    <div class="bouton_frontback">
+                        <a href="https://github.com/HelderF2821/projet_collectif_vente_de_meubles-front-team_retrovibe" target="_blank" i class='bx bx-link-external'></i>Front</a>
+                        <a href="https://github.com/HelderF2821/projet_collectif_vente_de_meubles_back-team_retrovibe" target="_blank" i class='bx bx-link-external'></i>Back</a>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-box">
+                <img src="images/Futur_Projet.png" alt="">
+                <div class="projects-layer">
+                    <h4>Microblogging</h4>
+                    <p>Prochain Projet</p>
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+            <div class="projects-box">
+                <img src="images/Futur_Projet.png" alt="">
+                <div class="projects-layer">
+                    <h4>Mobile Front</h4>
+                    <p>Futur Projet.</p>
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+            <div class="projects-box">
+                <img src="images/Futur_Projet.png" alt="">
+                <div class="projects-layer">
+                    <h4>Mobile Back</h4>
+                    <p>Futur Projet.</p>
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Adress">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 By Helder Ferreira | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
