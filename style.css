@@ -47,7 +47,7 @@ section {
 }
 
 .header img {
-    max-width: 75px;
+    max-width: 100px;
     max-height: 75px;
 }
 
@@ -98,7 +98,7 @@ section {
         transform: translateY(0);
     }
     50% {
-        transform: translateY(-2.4rem);
+        transform: translateY(-2rem);
     }
     100% {
         transform: translateY(0);
@@ -370,12 +370,14 @@ span {
 @media (max-width: 1200px) {
     html {
         font-size: 55%;
+        overflow-x:hidden;  
     }
 }
 
 @media (max-width: 991px) {
     .header {
         padding: 2rem 3%;
+        width: 100vw;
     }
 
     section {
@@ -396,6 +398,7 @@ span {
 
     .footer {
         padding: 2rem 3%;
+        justify-content: center;
     }
 }
 
@@ -448,7 +451,7 @@ span {
     }
 
     .about img {
-        width: 70vh;
+        width: 70vw;
         margin-top: 4rem;
     }
 
@@ -474,10 +477,6 @@ span {
 @media (max-width: 450px) {
     html {
         font-size: 50%;
-    }
-
-    .contact form .input-box input {
-        width: 100%;
     }
 }
 

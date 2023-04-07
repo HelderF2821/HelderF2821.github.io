@@ -40,9 +40,9 @@ ScrollReveal({
     delay: 200
 });
 
-ScrollReveal().reveal('.home-content, .heading', { origin: 'top'});
+ScrollReveal().reveal('.home-content, .heading', { origin: 'bottom'});
 ScrollReveal().reveal('.home-img, .competences-container, .projects-box, .contact form', { origin: 'bottom'});
-ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left'});
-ScrollReveal().reveal('.projects h3', { origin: 'left'});
-ScrollReveal().reveal('.projects h4', { origin: 'right'});
-ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right'});
+ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'bottom'});
+ScrollReveal().reveal('.projects h3', { origin: 'bottom'});
+ScrollReveal().reveal('.projects h4', { origin: 'bottom'});
+ScrollReveal().reveal('.home-content p, .about-content', { origin: 'bottom'});
